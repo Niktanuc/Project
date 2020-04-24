@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="gbs1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/gbs1" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Debug/" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/gbs1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-mms-bitfields" />
+			<Add option="-Wall" />
+			<Add directory="C:/Prog/CodeBlocks2/Gtk/include" />
+			<Add directory="C:/Prog/CodeBlocks2/Gtk/include/gtk-3.0" />
+			<Add directory="C:/Prog/CodeBlocks2/Gtk/include/cairo" />
+			<Add directory="C:/Prog/CodeBlocks2/Gtk/include/gdk" />
+			<Add directory="C:/Prog/CodeBlocks2/Gtk/include/glib-2.0" />
+			<Add directory="C:/Prog/CodeBlocks2/Gtk/lib/glib-2.0/include" />
+			<Add directory="C:/Prog/CodeBlocks2/Gtk/include/pango-1.0" />
+			<Add directory="C:/Prog/CodeBlocks2/Gtk/lib/gtk-3.0/include" />
+			<Add directory="C:/Prog/CodeBlocks2/Gtk/include/atk-1.0" />
+			<Add directory="C:/Prog/CodeBlocks2/Gtk/include/gdk-pixbuf-2.0" />
+		</Compiler>
+		<Linker>
+			<Add library="gtk-win32-3.0" />
+			<Add library="gobject-2.0" />
+			<Add library="glib-2.0" />
+			<Add directory="C:/Prog/CodeBlocks2/Gtk/lib" />
+		</Linker>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project output_language="" />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
